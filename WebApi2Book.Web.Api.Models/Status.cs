@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WebApi2Book.Web.Api.Models
 {
-    public class Class1
+    public class Status
     {
+        public long StatusId { get; set; }
+        public string Name { get; set; }
+        public int Ordinal { get; set; }
     }
 }
